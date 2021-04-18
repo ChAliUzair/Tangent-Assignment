@@ -21,8 +21,22 @@ module.exports = {
         transparent: 'transparent',
         current: 'currentColor',
       },
+      keyframes: {
+        wiggle: {
+          "0%, 100%": { transform: "rotate(-3deg)" },
+          "50%": { transform: "rotate(3deg)" }
+        }
+      },
+      animation: {
+        wiggle: "wiggle 200ms ease-in-out"
+      }
     },
   },
-  variants: {},
-  plugins: [],
+  variants: {
+    animation: ['responsive', 'motion-safe', 'motion-reduce']
+  },
+  plugins: [
+    require('@tailwindcss/forms'),
+    require('@tailwindcss/typography')
+  ],
 };

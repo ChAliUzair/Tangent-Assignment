@@ -21,6 +21,10 @@ export class AuthService {
     return;
   }
 
+  setUser(user:any) {
+    return setItem(StorageItem.User, user);
+  }
+
   signIn(): void {
     const token = Array(4)
       .fill(0)

@@ -8,6 +8,7 @@ const defaultData = {
       name: 'Kone',
       price: '3488.99',
       currency: 'RM',
+      image: 'https://ik.imagekit.io/q5edmtudmz/FB_IMG_15658659197157667_wOd8n5yFyXI.jpg',
       discount: [
         {
           user_level: 'diamond', // associate, diamond, other
@@ -21,6 +22,7 @@ const defaultData = {
       name: 'Ironhide Cartridge',
       price: '529.99',
       currency: 'RM',
+      image: 'https://limg.app/i/Cute-Constrictor-Super-Sexy-Military-Enforcer-W7mvBp.png',
       discount: [
         {
           user_level: 'diamond', // associate, diamond, other

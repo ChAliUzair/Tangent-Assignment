@@ -3,6 +3,7 @@ export enum StorageItem {
   User = 'Tangent/user',
   Products = 'Tangent/Products',
   Theme = 'Tangent/theme',
+  Cart = 'Tangent/Cart',
 }
 
 export const getItem = (itemName: StorageItem): unknown | null => {
